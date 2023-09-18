@@ -1,0 +1,2 @@
+DELETE FROM city WHERE city_id not in (SELECT DISTINCT city_id FROM address);
+DELETE FROM country WHERE country_id not in (SELECT DISTINCT country_id FROM city c JOIN address a ON c.city_id = a.city_id);
