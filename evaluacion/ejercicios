@@ -1,0 +1,13 @@
+2)
+INSERT into artists(name, ArtistId)
+VALUES("delicate", "276")
+INSERT into albums(Title, ArtistId, AlbumId)
+VALUES("reputation", "276", "348")
+INSERT into tracks (TrackId, Name, AlbumId, GenreId, Composer, Milliseconds, MediaTypeId, Bytes, UnitPrice)
+VALUES("3504", "dress", "348", "9", "delicate", "74893", "1", "234432", "0.99")
+INSERT into tracks (TrackId, Name, AlbumId, GenreId, Composer, Milliseconds, MediaTypeId, Bytes, UnitPrice)
+VALUES("3505", "getaway car", "348", "9", "delicate", "745893", "1", "25334432", "0.99")
+3)
+UPDATE employees`
+SET Phone = fax,
+    fax = Phone;
